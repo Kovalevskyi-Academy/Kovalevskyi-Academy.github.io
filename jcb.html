@@ -1,0 +1,76 @@
+<?xml version="1.0"?> <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Запись на курс Java DeepDive</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />	
+	<meta name="robots" content="all" />
+	<script src="https://js.stripe.com/v3"></script>
+	<style type="text/css">
+		body {
+			background-image: url("https://cdn.bitrix24.com/b16787319/landing/747/7477775b688ea2f15fbbf0cd94862e16/cover_2x_1x.jpg");
+			background-attachment: fixed;
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+		}
+	</style>
+</head>
+<body>
+<div id="error-message"></div>
+
+<script data-b24-form="inline/14/vlsyza" data-skip-moving="true">
+        (function(w,d,u){
+                var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/180000|0);
+                var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+        })(window,document,'https://cdn.bitrix24.com/b16787319/crm/form/loader_14.js');
+</script>
+
+<script>
+window.onload = function() {	
+
+var stripe = Stripe('pk_live_51IZtJtCriXyF6QC8RXSsJvspU4W6Liugsx0tqgzHtKlWVtZyvbEcBwVMPidjbdNKwRK12xVMzuWcYU4w2i5R7iUw0096c6RZVE');
+
+  document.addEventListener('click', function (e) {
+  if(e.target && e.target.innerText == 'Перейти к оплате'){
+ 
+	setTimeout(function() {
+	/*
+	 * When the customer clicks on the button, redirect
+	 * them to Checkout.
+	 */
+	
+	stripe.redirectToCheckout({	  
+	  lineItems: [{price: 'price_1IcEzMCriXyF6QC8qwxwUVss', quantity: 1}],
+	  customerEmail: JSON.parse(window.localStorage.getItem('b24-form-field-stored-values')).type.email,
+	  mode: 'payment',
+	  /*
+	   * Do not rely on the redirect to the successUrl for fulfilling
+	   * purchases, customers may not always reach the success_url after
+	   * a successful payment.
+	   * Instead use one of the strategies described in
+	   * https://stripe.com/docs/payments/checkout/fulfill-orders
+	   */
+	  successUrl: window.location.protocol + '//kovalevskyi.academy/success',
+	  cancelUrl: window.location.protocol + '//kovalevskyi.academy/error',
+	})
+	.then(function (result) {
+	  if (result.error) {
+		/*
+		 * If `redirectToCheckout` fails due to a browser or network
+		 * error, display the localized error message to your customer.
+		 */
+		var displayError = document.getElementById('error-message');
+		displayError.textContent = result.error.message;
+	  }
+	});
+	}, 3000);
+	}
+  });
+};
+</script>
+
+</body>
+</html>
+
