@@ -1,0 +1,11 @@
+{
+  "mainMenu": {
+    "aboutAcademy": "ABOUT ACADEMY",
+    "courses": "COURSES",
+    "feedback": "FEEDBACK"
+  },
+  "mainPage": {
+    "startHeader": "Start your path to becoming a programmer now.",
+    "startDescription": "The start of the new group is October 6th. No previous experience is required, but it will take a lot of time, effort and diligence (one desire is not enough, even two are not enough)."
+  }
+}
