@@ -140,7 +140,8 @@
     "codingHeroBackLink": "Back to courses page",
     "codingHeroDescriptionOne": "Those who have never programmed in their lives start with a bootcamp.",
     "codingHeroDescriptionTwo": "Not sure? Start with a bootcamp.",
-    "codingHeroLink": "Sign up for"
+    "codingHeroLink": "Sign up for",
+    "codingGformLink": "https://docs.google.com/forms/d/e/1FAIpQLSd1vZJ5enMT9VWl-t6F6ozw8PW61xw3XKUPe-u8-Ao4bHvNRA/viewform"
   },
   "javaStats": {
     "statsOne": "people who signed up",

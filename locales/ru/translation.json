@@ -140,7 +140,8 @@
     "codingHeroBackLink": "Вернуться к странице курсов",
     "codingHeroDescriptionOne": "Именно с буткемпа начинают те, кто никогда в своей жизни не программировал.",
     "codingHeroDescriptionTwo": "Не уверен? Начни с буткемпа.",
-    "codingHeroLink": "Записаться на"
+    "codingHeroLink": "Записаться на",
+    "codingGformLink": "https://docs.google.com/forms/d/e/1FAIpQLSc0mEpMB_5uNLpoUXS_i0zlgUe4GFfCHGgLWNQEC6dm_E1p8A/viewform"
   },
   "javaStats": {
     "statsOne": "записавшихся",
