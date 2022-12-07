@@ -5,11 +5,11 @@
     "headerFeedback": "Reviews"
   },
   "heroHome": {
-    "heroHeader": "Start your way to programmers now.",
+    "heroHeader": "Start To Code With Us.",
     "heroDescription": "A new group is starting soon! No previous experience is required, but it will take a lot of time, effort and diligence (one desire is not enough, even two are not enough)."
   },
   "homeGoals": {
-    "goalsHeader": "What will you learn?",
+    "goalsHeader": "What Will You Learn?",
     "goalOneName": "Write your programs from scratch",
     "goalOneDescription": "You will go from feeling completely incomprehensible to realizing that you can write code yourself and solve problems. It will be difficult, but you can do it.",
     "goalTwoName": "Work in a team",
@@ -20,19 +20,19 @@
     "goalFourDescription": "The courses will give you real practical experience that you can apply in your professional life."
   },
   "homeForWhom": {
-    "forWhomHeader": "Who is suitable for such training?",
-    "forWhomOneName": "Have you never programmed before?",
+    "forWhomHeader": "Does It Suit You?",
+    "forWhomOneName": "No programming experience?",
     "forWhomOneDescription": "Don't know anything about programming? Want to start but don't know where or how?",
     "forWhomOneSolution": "<strong>Excellent!</strong> Come to the bootcamp, everyone is like that (except others).",
-    "forWhomTwoName": "Do you think you understand String?",
+    "forWhomTwoName": "Have basic knowledge?",
     "forWhomTwoDescription": "Do you already know and understand the language, but have not solved real production tasks?",
     "forWhomTwoSolution": "<strong>Wonderful!</strong> Start with a bootcamp, but already as a mentor. And then dive into Java Algorithms and/or Java DeepDive.",
-    "forWhomThreeName": "Do you think you already know everything?",
+    "forWhomThreeName": "Need some challenge?",
     "forWhomThreeDescription": "Do you solve problems before they even appear? Have you been writing code for a couple of years now? Even for money?",
-    "forWhomThreeSolution": "<strong>Perfect!</strong> It's time to start pumping the soft skills of a mentor, guru, tutor. We are waiting with a huge bunch of juniors."
+    "forWhomThreeSolution": "<strong>Perfect!</strong> It's time to start pumping the soft skills of a mentor, guru, tutor. Juniors need you."
   },
   "pricingSection": {
-    "pricingHeader": "Cost of education",
+    "pricingHeader": "Pricing",
     "pricingDescription": "You pay once and take the course as many times as needed.",
     "pricingCourses": "Courses",
     "pricingLevel": "Level",
@@ -70,20 +70,20 @@
     "memberFour": "Hlib<br/>Bochkarov"
   },
   "joinTeam": {
-    "joinHeader": "Join the community",
+    "joinHeader": "Join Our Community",
     "joinDescription": "Do you also like our mission of creating quality and affordable education for everyone? Then come to us. We have many tasks you can help with. We need mentors, volunteers, students, and just interesting people to develop our idea together.",
     "joinLink": "Go to Discord"
   },
   "courseHero": {
-    "courseHeader": "Available courses",
-    "courseDescription": "Duration 3 weeks | Daily practice tasks | Communication in Discord | Live Coding | Review | Group daily calls",
+    "courseHeader": "Courses",
+    "courseDescription": "Duration 3 weeks | Daily tasks | Communication in Discord | Live Coding | Review | Daily calls with group",
     "courseOneDescription": "Get coding experience and an initial base for learning to program",
     "courseTwoDescription": "Learn to solve algorithmic problems by mastering sorting, data structures, etc.",
     "courseThreeDescription": "Get an understanding of how most low level libraries work",
-    "courseMore": "To learn more"
+    "courseMore": "Learn more"
   },
   "featuresBlocks": {
-    "blocksHeader": "What to expect?",
+    "blocksHeader": "What To Expect?",
     "blockOneName": "Cohort Based Learning",
     "blockOneDescription": "We have no place for loners. We are preparing for real life, in which everyone always works as a team.",
     "blockTwoName": "Communication in Discord",
@@ -98,7 +98,7 @@
     "blockSixDescription": "After completing the task, the student passes it to two of his colleagues. This allows us to solve the control problem and look at the solution of the problem from different angles."
   },
   "coursesFeatures": {
-    "featuresHeader": "Courses in development",
+    "featuresHeader": "In development",
     "featuresOneDescription": "Learn to use cloud technologies and write your backend",
     "featuresOneDate": "December 2022",
     "featuresTwoDescription": "Learn how to conduct an interview and answer any questions",
@@ -133,8 +133,8 @@
 
   },
   "ctaDark": {
-    "ctaHeaderOne": "Join the",
-    "ctaHeaderTwo": "community"
+    "ctaHeaderOne": "Join Our",
+    "ctaHeaderTwo": "Community"
   },
   "javaCodingHero": {
     "codingHeroBackLink": "Back to courses page",
@@ -144,9 +144,9 @@
     "codingGformLink": "https://docs.google.com/forms/d/e/1FAIpQLSd1vZJ5enMT9VWl-t6F6ozw8PW61xw3XKUPe-u8-Ao4bHvNRA/viewform"
   },
   "javaStats": {
-    "statsOne": "people who signed up",
-    "statsTwo": "passed on the first try",
-    "statsThree": "passed on the second try"
+    "statsOne": "signed up",
+    "statsTwo": "passed (1st attempt)",
+    "statsThree": "passed (2nd attempt) "
   },
   "javaContent": {
     "contentHeader": "Briefly about the course",
@@ -222,12 +222,12 @@
     "contentThreeLiFourDescription": "Graduation project"
   },
   "joinCtaDark": {
-    "joinCtaHeader": "Start of new groups",
+    "joinCtaHeader": "New groups start on",
     "joinCtaDescription": "Come and test your strength — all courses start at the same time"
   },
   "textCtaDark": {
-    "textCtaHeaderOne": "Student",
-    "textCtaHeaderTwo": "Feedback",
+    "textCtaHeaderOne": "",
+    "textCtaHeaderTwo": "Testimonials",
     "textCtaDescription": "We know our community is the coolest, but that's exactly what others say. To paraphrase Linus Torvalds, <strong>«Talking is cheap, show me the feedback»</strong> — better read the reviews of our students."
   },
   "customers": {
@@ -257,15 +257,15 @@
     "customerTwelveDescription": "For me, the main thing in this course was that I had to <strong>solve some problems every day</strong>, because I had already gone through all the theory mentioned, but this knowledge is very quickly forgotten without practice.< br /><br />Most of all I liked the fact that I had to <strong>show and discuss my solution</strong> with other course participants who could suggest and show you something. For example, how to do better, or just look at other ways to implement a task and compare it with your own, try to understand other people's solutions. It was also very interesting to <strong>run applications from the console</strong>, before that I had never had to do this in practice.<br /><br />And one more thing, <strong>joint review</strong> helps a lot to share practical knowledge, for example, what «tricks» can be used in the development environment, how to set up the same launch from the console, and all sorts of other useful buttons."
   },
   "audioCtaDark": {
-    "audioCtaHeaderOne": "Student",
-    "audioCtaHeaderTwo": "Audio Feedback",
+    "audioCtaHeaderOne": "Audio",
+    "audioCtaHeaderTwo": "Testimonials",
     "audioCtaDescription": "Here we will collect the unique experience of our students with sound, you will definitely like the atmosphere in the team and decide to join us."
   },
   "audioTestimonials": {
     "testimonialsOneHeader": "Oksana Molostova",
     "testimonialsOneDescription": "Oksana is a “graduate” of the first CodingBootcamp flow, she started learning programming from scratch. This audio review was recorded after a three week bootcamp training — from zero to free writing simple programs. (Note: the review is in Russian).",
     "testimonialsTwoHeader": "Alexander Petrov",
-    "testimonialsTwoDescription": "Alexander is a Java Deepdive “graduate” who managed to complete the course in one month. Listen to this audio review (emotional), because the course is not really easy to pass, the tasks are quite difficult and good teamwork is the basis. (Note: the review is in Russian)."
+    "testimonialsTwoDescription": "Alexander is a Java Deepdive “graduate” who managed to complete the course in one month. Listen to this audio review (emotional), because the course is not really easy to pass, the tasks are quite difficult and good teamwork is must. (Note: the review is in Russian)."
   },
   "footer": {
     "footerSlogan": "A smarter way to learn is to join our community.",
