@@ -2,7 +2,8 @@
   "header": {
     "headerAboutAcademy": "Про академiю",
     "headerCourses": "Курси",
-    "headerFeedback": "Вiдгуки"
+    "headerFeedback": "Вiдгуки",
+	"headerMerch": "Мерч"
   },
   "heroHome": {
     "heroHeader": "Почни свій шлях у програмісти вже зараз.",

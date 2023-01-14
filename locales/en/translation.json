@@ -2,7 +2,8 @@
   "header": {
     "headerAboutAcademy": "About us",
     "headerCourses": "Courses",
-    "headerFeedback": "Reviews"
+    "headerFeedback": "Reviews",
+	"headerMerch": "Merch"
   },
   "heroHome": {
     "heroHeader": "Start To Code With Us.",
