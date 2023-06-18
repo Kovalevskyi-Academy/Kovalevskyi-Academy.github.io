@@ -159,7 +159,7 @@
     "contentLiFourName": "Day 4:",
     "contentOneName": "Start",
     "contentOneDescription": "You can't just take and write your first program. It is in the first week that we introduce you to all the basics that are needed for this.",
-    "contentOneLiOneDescription": "Linux, Shell, Version control, Git, GitHub",
+    "contentOneLiOneDescription": "Command Line & Git, Google Cloud Shell",
     "contentOneLiTwoDescription": "Vim, Java, Compilation, Typification",
     "contentOneLiThreeDescription": "Build, Maven, POM file, Testing, JUnit, Zeus, Checkstyle",
     "contentOneLiFourDescription": "Classes, Methods, Data types, If, For, Arrays, Return, Exceptions",
